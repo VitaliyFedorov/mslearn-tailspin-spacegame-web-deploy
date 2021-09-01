@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<parameters xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+  <parameter name="IIS Web Application Name" description="Required for webdeploy via Azure pipelines and set automatically" defaultValue="vanilla" xdt:Transform="Insert">
+    <parameterEntry type="ProviderPath" scope="iisapp" match="WebSite" />
+  </parameter>
+</parameters>
